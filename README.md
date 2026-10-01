@@ -40,6 +40,10 @@
 - [App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
 - [App Store Connect](https://appstoreconnect.apple.com/)
 
+## 咨询协助
+
+注册、验证、内购开通等问题可通过 Telegram 咨询：**[@M6999](https://t.me/M6999)**
+
 ## 延伸阅读
 
 - [playconsoleacc.com](https://playconsoleacc.com/)  
