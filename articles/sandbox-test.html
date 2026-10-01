@@ -30,10 +30,14 @@
       <div class="keywords"><span>App Store上架</span><span>App Store Connect</span><span>如何提审</span><span>Xcode上传</span><span>开通内购</span><span>Sandbox测试</span><span>订阅配置</span><span>审核指南</span></div>
     </div>
     <div class="content">
-      <h2>操作步骤要点</h2>
-      <ul class="check"><li>在用户与访问中创建 Sandbox 测试员。</li><li>在设备上用沙盒账号登录购买流程。</li><li>验证购买成功、恢复购买与取消场景。</li><li>检查收据校验或 StoreKit 流程是否符合预期。</li><li>提审前保留可复现的测试说明。</li></ul>
-      <h2>实操建议</h2>
-      <ul class="check"><li>所有费用、材料与审核结果以平台当前页面为准。</li><li>中途更换主体类型或关键资料，容易导致验证反复。</li><li>涉及内购时，先完成付款/协议，再创建商品与联调。</li></ul>
+      <h2>适用场景</h2>
+      <p>用 Sandbox 测试员验证购买。</p>
+      <h2>操作步骤</h2>
+      <ol class="steps"><li>ASC → 用户和访问 → 沙盒 → 测试员，创建账号。</li><li>在设备设置中退出正式 Apple ID 的媒体与购买项目（按当前 iOS 指引）。</li><li>用 Sandbox 账号在应用内发起购买。</li><li>验证购买成功、恢复购买与订阅续期加速。</li><li>检查服务端收据校验逻辑。</li></ol>
+      <h2>注意事项</h2>
+      <ul class="check"><li>勿在生产环境误用沙盒账号。</li><li>订阅在沙盒中会加速续期。</li><li>保留测试矩阵（新购/取消/过期）。</li></ul>
+      <h2>官方参考</h2>
+      <p><a href="https://developer.apple.com/help/app-store-connect/test-in-app-purchases/" target="_blank" rel="noopener">测试 IAP</a></p>
     </div>
     <p style="margin-top:1rem"><a href="../index.html">← 返回目录</a></p>
 

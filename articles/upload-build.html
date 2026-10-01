@@ -30,10 +30,14 @@
       <div class="keywords"><span>App Store上架</span><span>App Store Connect</span><span>如何提审</span><span>Xcode上传</span><span>开通内购</span><span>Sandbox测试</span><span>订阅配置</span><span>审核指南</span></div>
     </div>
     <div class="content">
-      <h2>操作步骤要点</h2>
-      <ul class="check"><li>使用匹配的证书与描述文件归档。</li><li>通过 Xcode Organizer 或官方推荐工具上传。</li><li>等待处理完成后，在版本中选入构建。</li><li>检查缺失合规问题警告并处理。</li><li>上传失败时根据日志核对签名与权限配置。</li></ul>
-      <h2>实操建议</h2>
-      <ul class="check"><li>所有费用、材料与审核结果以平台当前页面为准。</li><li>中途更换主体类型或关键资料，容易导致验证反复。</li><li>涉及内购时，先完成付款/协议，再创建商品与联调。</li></ul>
+      <h2>适用场景</h2>
+      <p>用 Xcode 归档并上传构建。</p>
+      <h2>操作步骤</h2>
+      <ol class="steps"><li>选择 Any iOS Device，Product → Archive。</li><li>Organizer 中 Distribute App → App Store Connect。</li><li>按自动签名或手动描述文件上传。</li><li>等待处理完成，在 ASC 关联构建。</li><li>填写“此版本的新功能”后提交。</li></ol>
+      <h2>注意事项</h2>
+      <ul class="check"><li>递增 CFBundleVersion。</li><li>位代码/加密合规问卷如实填写。</li><li>上传失败查证书、 entitiements 与网络。</li></ul>
+      <h2>官方参考</h2>
+      <p><a href="https://developer.apple.com/help/app-store-connect/manage-builds/upload-builds" target="_blank" rel="noopener">上传构建</a></p>
     </div>
     <p style="margin-top:1rem"><a href="../index.html">← 返回目录</a></p>
 

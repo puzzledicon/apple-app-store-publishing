@@ -1,6 +1,6 @@
 # App Store 上架与内购笔记
 
-说明如何创建 App、如何提审，以及如何在 App Store Connect 配置内购并完成沙盒测试。
+说明如何在 App Store Connect 创建 App、提审自查、用 Xcode 上传构建，以及配置内购并完成 Sandbox 测试。
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-2ea44f?logo=github)](https://puzzledicon.github.io/apple-app-store-publishing/)
 
